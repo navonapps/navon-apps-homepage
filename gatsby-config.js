@@ -2,9 +2,9 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  siteMetadata: {
-    title: `Navon apps homepage`,
-    siteUrl: `https://www.yourdomain.tld`
-  },
-  plugins: ["gatsby-plugin-google-gtag"]
+	siteMetadata: {
+		title: `Navon apps homepage`,
+		siteUrl: `https://navonapps.github.io`
+	},
+	pathPrefix: "/navon-apps-homepage"
 };
